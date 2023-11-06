@@ -6,7 +6,7 @@ public record ProcessHitCommand(
     Guid Id,
     string ShortCode,
     string OwnerId,
-    string TotalHits,
+    int TotalHits,
     DateTimeOffset CreatedOn) : IUrlShortnerCommand
 {
 }
